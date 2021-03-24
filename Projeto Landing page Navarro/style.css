@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Verdana;
+
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo {
+    position: relative;
+    height: 60px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
+    letter-spacing: 1px;
+
+}
+
+.navbar li a:hover {
+    color: rgb(112, 0, 0);
+}
+
+#btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    background: rgb(112, 0, 0);
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+   top: -2px;
+}
+
+#btn:hover {
+    color: white;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: -80px;
+}
+.textBox {
+    position: relative;
+    max-width: 600px;
+    align-items: center;
+}
+
+.textBox h2 {
+    color: black;
+    font-size: 60px;
+    line-height: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.textBox h2 span {
+    color: rgb(112, 0, 0);
+}
+
+.textBox p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.cavalo {
+    max-height: 500px;
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 110px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    border-style: double;
+    border-width: 20px;
+    letter-spacing:2px;
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.textBox a:hover{
+    color: rgb(112, 0, 0);
+}
+.subButtonText {
+    margin-top: 40px;
+}
+.meio {
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    min-width: 50vh;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+.meio .content_meio{
+    position: relative;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    
+   
+}
+#btn2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    background: rgb(112, 0, 0);
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    margin-right: 100px;
+    white-space: nowrap;
+}
+.content_meio h2 {
+    font-family: 'Roboto', 'Trebuchet MS';
+    text-align: justify;
+    margin-left: 40px;
+    color: white;
+}
+
+#btn2:hover {
+    color:white;
+}
+.content_about {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    top: -200px;
+    margin-top: 20px;
+}
+
+
+.content_about .produto_titulo {
+    text-align: center; 
+    width: 100%;
+    font-size: 35px;
+    font-family: "Montserrat Bold", "Verdana";
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+.split .imagem_produto {
+    max-height: 300px;
+    
+}
+#sela2, #sela1, #sela3{
+    width:300px;
+    height:300px;
+    
+}
+.split {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: center;
+}
+
+.split .item_produto {
+    display: block;
+    position: relative;
+    transform: scale(.85);
+    transition: transform 250ms ease-in-out;
+    text-decoration: none;
+    color: rgb(112, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    font-size: 25px;
+    
+    
+}
+.item_produto span{
+    font-size: 35px;
+    display: block;
+    font-weight: 800;
+    color: black;
+    margin-top: 20px;
+
+}
+.split .item_produto:hover, .split .item_produto:focus {
+    transform: scale(1);
+}
+
+.split .item_produto::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(112, 0, 0);
+    padding: 100% 100% 0 0 ;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.preRow {
+    text-align: center; 
+    width: 100%;
+    font-size: 35px;
+    font-family: "Montserrat Bold", "Verdana";
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row h4 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.row p {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.row span {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(112, 0, 0);
+}
+.row a {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    background: rgb(112, 0, 0);
+    color: black;
+    font-size: 25px;
+    font-weight: 700;  
+    
+}
+
+#btn3:hover {
+    color: white;
+}
